@@ -1,0 +1,71 @@
+.cert-header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10vh;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background: linear-gradient(to right, rgba(39, 34, 163, 0.8), rgba(39, 34, 163, 0.8)), url(../../../images/home-hero-bg.jpg);
+}
+
+.cert-header h1 {
+    font-weight: bold;
+    color: white;
+    margin-top: 20vh;
+    font-size: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cert-header h4 {
+    font-weight: normal;
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 40%;
+    margin-top: 0vh;
+    word-wrap: break-word;
+    text-align: justify;
+    color: #97f736;
+}
+
+.cert-main {
+    width: cover;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding-top: 5vh;
+    padding-left: 15vh;
+    padding-right: 5vh;
+    padding-bottom: 5vh;
+}
+
+.cert-main .cert-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cert-main .cert-item h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #68AB26;
+}
+
+.cert-main .cert-item p {
+    width: 90%;
+    text-align: justify;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+}
+
+.cert-item a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 2vh;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: #12104E;
+    border-radius: 5px;
+
+}

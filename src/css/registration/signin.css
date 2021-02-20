@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@900&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.signin-main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.signin-welcome {
+    width: 55%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: right;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(70,99,160,0.7)), url(../../images/home-hero-2-bg.jpg);
+    background-repeat: no-repeat !important;
+    background-size: cover;
+}
+
+.signin-welcome img {
+    width: 486px;
+    height: 109px;
+    margin-left: 20vh;
+    margin-top: -10vh;
+}
+
+.signin-welcome p {
+    width: 70%;
+    height: auto;
+    text-align: justify;
+    font-family: 'segoe ui', sans-serif;
+    font-size: 18px;
+    margin-left: 20vh;
+    color: white;
+}
+
+.signin-welcome a {
+    padding: 2vh;
+    background-color: #12104E;
+    font-weight: normal;
+    font-size: 17px;
+    text-decoration: none;
+    margin-left: 20vh;
+    color: white;
+    width: 25%;
+    border-radius: 5px;
+    text-align: center;
+    transition: ease 0.5s;
+}
+
+.signin-welcome a:hover {
+    background-color: #68AB26;
+    color: #12104E;
+    font-weight: bold;
+}
+
+.signin-details {
+    width: 45%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: rgb(250,250,250);
+}
+
+.signin-details h2 {
+    color: #12104E;
+    margin-bottom: 0vh;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.signin-details h4 {
+    color: #12104E;
+}
+
+.signin-details .signin {
+    display: flex;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signin input {
+    width: 65%;
+    background-color: #eeeeee;
+    height: 5vh;
+    margin-bottom: 3vh;
+    font-size: 15px;
+    color: #12104E;
+    font-family: 'Open Sans', sans-serif;
+    border: 3px solid rgb(225,230,240);
+    font-weight: bold;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    background-color: transparent;
+}
+
+.signin button {
+    width: 72%;
+    border: none;
+    background-color: #12104E;
+    color: white;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    font-size: 17px;
+    margin-bottom: 0vh;
+    font-family: 'segoe ui', sans-serif;
+    font-weight: bold;
+    transition: ease 0.5s;
+}
+
+.signin button:hover {
+    color: #12104E;
+    background-color: #68AB26;
+}
+
+.signin-details p {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.signin-details p a {
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 2vh;
+    font-weight: bold;
+    color: #2722A3;
+}
+
+
+

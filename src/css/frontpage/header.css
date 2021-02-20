@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@900&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 12vh;
+    background-color: rgb(230,235,240);
+    display: flex;
+    z-index: 500;
+    flex-direction: row;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0.5rem 1rem rgba(19, 18, 18, 0);
+}
+
+.logo {
+    width: 25%;
+    height: 12vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 178px;
+    height: 40px;
+}
+
+.basic-menu {
+    width: 70%;
+    height: 12vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Geneva' sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.basic-menu ul {
+    list-style-type: none;
+    display: flex;
+    width: 60%;
+    flex-direction: row;
+    justify-content: space-evenly;  
+    align-items: center;
+}
+
+.basic-menu .menu-2 {
+    list-style-type: none;
+    display: flex;
+    width: 40%;
+    flex-direction: row;
+    color: rgba(141, 65, 65, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.basic-menu ul li a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    transition: ease 1s;
+}
+
+.basic-menu ul li a:hover {
+    color: #12104e;
+}
+
+.basic-menu .menu-2 li a[name = 'login'] {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 4vh;
+    padding-right: 4vh;
+    background-color: none;
+    color: #12104E;
+    border: none;
+    transition: ease-in 0.5s;
+}
+
+.basic-menu .menu-2 li a[name = 'login']:hover {
+    color: black;
+}
+
+.basic-menu .menu-2 li a[name = 'register'] {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 4vh;
+    padding-right: 4vh;
+    background-color: #12104e;
+    color: white;
+    border: none;
+    transition: ease-in 0.5s;
+}
+
+.basic-menu .menu-2 li a[name = 'register']:hover {
+    background-color: #3630e3;
+    color: white;
+}

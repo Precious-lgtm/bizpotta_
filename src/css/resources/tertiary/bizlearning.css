@@ -1,0 +1,155 @@
+.biz-header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10vh;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background: linear-gradient(to right, rgba(39, 34, 163, 0.8), rgba(39, 34, 163, 0.8)), url(../../../images/home-hero-bg.jpg);
+}
+
+.biz-header h1 {
+    font-weight: bold;
+    color: white;
+    margin-top: 20vh;
+    font-size: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.biz-header h4 {
+    font-weight: normal;
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 40%;
+    margin-top: 0vh;
+    word-wrap: break-word;
+    text-align: justify;
+    color: #97f736;
+}
+
+.biz-item {
+    width: 100%;
+    height: auto;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.biz-item .biz-detail {
+    width: 55%;
+    height: auto;
+    display: flex;
+    padding-left: 15vh;
+    padding-right: 5vh;
+    flex-direction: column;
+}
+
+.biz-detail h1 {
+    font-weight: bolder;
+    color: #12104E;
+    font-family: 'segoe ui', sans-serif;
+}
+
+.biz-detail p {
+    font-size: 18px;
+    font-family: 'segoe ui', sans-serif;
+    text-align: justify;
+    width: 90%;
+}
+
+.biz-detail a {
+    text-decoration: none;
+    padding: 2vh;
+    background-color: #80D12E;
+    width: 40%;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    transition: ease 0.5s;
+}
+
+.biz-detail a:hover {
+    background-color: #68AB26;
+    color: #12104E;
+}
+
+.biz-item .biz-desc {
+    width: 45%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.biz-desc img {
+    width: 400px;
+    height: 409px;
+}
+
+.biz-programs {
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: #f9f8fa;
+    flex-direction: column;
+}
+
+.biz-programs h1 {
+    font-family: 'Tahoma', sans-serif;
+    font-size: 30px;
+    width: 100%;
+    color: #12104E;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.biz-education {
+    padding-top: 5vh;
+    padding-bottom: 10vh;
+    padding-left: 15vh;
+    padding-right: 10vh;
+    width: cover;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.biz-education div h2 {
+    font-size: 25px;
+    font-family: 'Tahoma', sans-serif;
+    font-weight: bold;
+    color: #2722A3;
+}
+
+.biz-education div p {
+    text-align: justify;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    width: 50vw;
+    margin-bottom: 5vh;
+}
+
+.biz-education div a {
+    padding: 2vh;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    background-color: #97f736;
+    color: #12104E;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 2vw;
+    font-weight: bold;
+    display: inline-block;
+    transition: ease-in 0.5s;
+}
+
+.biz-education div a:hover {
+    background-color: #80D12E;
+    color: #12104E;
+}
+
+
+

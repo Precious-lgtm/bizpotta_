@@ -1,0 +1,291 @@
+.feature-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f9fa;
+    font-family: 'segoe ui', sans-serif;
+}
+
+.feature-header {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-header h2 {
+    color: #12104E;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-bottom: -3vh;
+}
+
+.feature-header h4 {
+    color: #606263;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.feature-basic {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    border: none;
+    padding-top: 5vh;
+    padding-left: 5vh;
+    padding-right: 10vh;
+    padding-bottom: 5vh;
+    margin-top: 0vh;
+    background-color: #f8f9fa !important;
+    font-family: "segoe ui", sans-serif;
+}
+
+.feature-details {
+    width: 50%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.feature-details h5 {
+    margin-bottom: 0vh;
+    height: auto;
+    text-transform: uppercase;
+    color: black;
+    font-size: 16px;
+}
+
+.feature-details h2 {
+    margin-left: 0vh;
+    font-size: 25px;
+    font-weight: 800;
+    width: 60%;
+    word-wrap: break-word;
+    color: #12104E;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: normal;
+}
+
+.feature-details p {
+    width: 80%;
+    text-align: justify;
+    font-size: 17px;
+    margin-top: 0vh;
+}
+
+.feature-details a {
+    display: inline-block;
+    padding: 1.5vh;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: transparent;
+    border: 2px solid #68AB26;
+    color: #12104E;
+    transition: ease 0.5s;
+    border-radius: none;
+    width: 20%;
+    text-align: center;
+}
+
+.feature-details a:hover {
+    background-color: #3932F0;
+}
+
+.intro-image {
+    width: 50%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-image img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+
+.course-div {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.course-div h2 {
+    width: 100%;
+    font-family: Tahoma, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 0vh;
+}
+
+.course-div h4 {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 15px;
+    color: gray;
+    font-weight: bold;
+    font-family: verdana;
+    margin-bottom: 0vh;
+}
+
+.courses {
+    width: cover;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 5vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.courses .course-list {
+    width: 20%;
+    height: auto;
+    margin: 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.course-list img {
+    width: 100%;
+    height: 270px;
+}
+
+.course-list h5 {
+    width: 80%;
+    text-align: center;
+    font-size: 15px;
+    font-weight: normal;
+    font-family: 'verdana';
+    font-weight: bold;
+}
+
+.course-list p {
+    text-align: center;
+    width: 90%;
+    margin-top: 0vh;
+}
+
+.review {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 5vh;
+}
+
+.review h2 {
+    font-family: 'Open Sans',sans-serif;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    color: rgb(85,85,85);
+    margin-bottom: 2vh;
+}
+
+.review h4 {
+    width: 100%;
+    margin-top: 0vh;
+    font-family: 'Calibri', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.review .alice-carousel {
+    width: 100% !important;
+    height: 100vh !important;
+    display: flex;
+    flex-direction: column;
+    padding: 5vh im !important;
+}
+
+.alice-carousel .testimony, .alice-carousel .testimony1, .alice-carousel .testimony2 {
+    width: 100% !important;
+    height: auto !important;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5vh;
+}
+
+.testimony .test-content, .testimony1 .test-content, .testimony2 .test-content {
+    width: 50% !important;
+    margin-left: 5vh;
+}
+
+.testimony img, .testimony1 img, .testimony2 img {
+    width: 40% !important;
+    margin-left: 15vh;
+    height: 70% !important;
+    border-radius: 50%;
+}
+
+.testimony i, .testimony1 i, .testimony2 i {
+    font-size: 25px;
+}
+
+.testimony .text, .testimony1 .text, .testimony2 .text {
+    width: 500px !important;
+    font-size: 25px;
+}
+
+.testimony .test-content h4, .testimony1 .test-content h4, .testimony2 .test-content h4 {
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.join {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0vh;
+    background-color: white;
+}
+
+.join div {
+    background: linear-gradient(to Right, rgba(10,10,10, 0.9), rgba(10,10,10,0.8)), url('../../images/bizpotta-hub.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 80vw;
+    height: 60vh;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.join div a {
+    display: inline-block;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 4vh;
+    padding-right: 4vh;
+    background-color: #68AB26;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 0vh;
+}
