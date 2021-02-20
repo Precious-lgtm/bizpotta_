@@ -24,10 +24,12 @@ function Signin() {
                 <form className = 'signin'>
                     <input type = 'email' className = 'email' placeholder = 'Your Email Address' name = 'email' required/>
                     <input type = 'password' className = 'password' placeholder = 'Your Password' name = 'password' required/>
+                    <div className = 'rem'><input type = 'checkbox' name = 'remember' value = 'Remember me' />
+                    <label for = "remember"> Remember Me </label></div>
                     <button type = 'submit'> Sign In </button>
                 </form>
                 <p><Link to = "/signup"> Create New Account </Link>
-                <Link to = "/"> Reset Password </Link>
+                <Link to = "/"> Forgot Password? </Link>
                 </p>
             </div>
         </div>

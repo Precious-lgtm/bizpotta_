@@ -1,26 +1,33 @@
 import React from 'react';
 import '../../css/frontpage/contact.css';
-import { Link } from 'react-router-dom';
+import '../../../node_modules/font-awesome/css/font-awesome.min.css';
 //import Logo from '../../images/bizpotta-logo-dark-sm.png';
 
 function contactUs(){
     return(
         <div className = 'contact-main'>
             <div className = 'contact-welcome'>
+                <h2> Get in touch with us </h2>
                 <p>
-                    At Bizpotta, we value your feedback, 
-                    your suggestions, your criticism and 
-                    your user experience in all. Whatever 
-                    enquiries you might want to make, or 
-                    requests you desire to be met with regards to 
-                    the businesses we offer. Use this platform to let us know. 
+                    We'd love to hear from you. Contact us 
+                    and ask any question about our services
                 </p>
-                <p>
-                    In essence, Let us hear from you.
-                </p>
-                <Link to = "/resources"> Our Services </Link>
             </div>
             <div className = 'contact-details'>
+                <div className = 'contact-location'>
+                    <div>
+                        <i className = 'fa fa-map-marker'></i>
+                        <p>#3 Downing Street, Buckingham Palace, London </p>
+                    </div>
+                    <div>
+                        <i className = 'fa fa-phone'></i>
+                        <p> +234 814 756 8723 </p>
+                    </div>
+                    <div>
+                        <i className = 'fa fa-envelope'></i>
+                        <p> bizpotta@gmail.com </p>
+                    </div>
+                </div>
                 <form className = 'contact-form'>
                     <input type = 'text' className = 'fullname' placeholder = 'Enter Your Full name' name = 'fullname' required/>
                     <input type = 'email' className = 'email' placeholder = 'Enter Your Email Address' name = 'email' required/>

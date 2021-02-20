@@ -12,7 +12,7 @@ function Header(){
                 <div className = 'basic-menu'>
                     <ul>
                         <li><Link to = '/about'> About </Link></li>
-                        <li><Link to = '/resources'> Learning </Link></li>
+                        <li><Link to = '/resource/bizlearning'> Learning </Link></li>
                         <li><Link to = '/resources'> Hub </Link></li>
                         <li><Link to = '/resources'> Funds </Link></li>
                         <li><Link to = '/resources'> Community </Link></li>

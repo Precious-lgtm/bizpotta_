@@ -7,13 +7,15 @@
 
 .res-header {
     width: 100%;
-    height: 60vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
-    padding: 10vh;
+    padding: 0vh;
+    justify-content: center;
+    align-items: center;
     background-repeat: no-repeat;
     background-size: cover !important;
-    background: linear-gradient(to right, rgba(39, 34, 163, 0.8), rgba(39, 34, 163, 0.8)), url(../../images/home-hero-bg.jpg);
+    background: linear-gradient(to right, rgba(2, 2, 1, 0.8), rgba(2, 2, 1, 0.8)), url(../../images/home-hero-bg.jpg);
 }
 
 .res-header h1 {
@@ -31,7 +33,7 @@
     width: 40%;
     margin-top: 0vh;
     word-wrap: break-word;
-    text-align: justify;
+    text-align: center;
     color: #97f736;
 }
 

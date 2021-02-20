@@ -22,13 +22,13 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: right;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(70,99,160,0.7)), url(../../images/home-hero-2-bg.jpg);
+    background-color: rgb(206, 212, 246);
     background-repeat: no-repeat !important;
     background-size: cover;
 }
 
 .signin-welcome img {
-    width: 486px;
+    width: 490px;
     height: 109px;
     margin-left: 20vh;
     margin-top: -10vh;
@@ -41,7 +41,7 @@ body {
     font-family: 'segoe ui', sans-serif;
     font-size: 18px;
     margin-left: 20vh;
-    color: white;
+    color: black;
 }
 
 .signin-welcome a {
@@ -135,12 +135,40 @@ body {
 }
 
 .signin-details p {
-    width: 50%;
+    width: 80%;
     height: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+}
+
+.signin-details .rem {
+    width: 72%;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    border: none;
+    padding: 0vh;
+    margin-bottom: 2vh;
+    justify-content: left;
+    align-items: left;
+}
+
+.signin-details .rem input[type = 'checkbox'] {
+    width: 6%;
+    height: 4vh;
+    padding: 0vh;
+    margin-left: 0vh;
+    border: 3px solid rgb(225,230,240) !important;
+}
+
+.signin-details .rem label {
+    margin-top: 0.6vh;
+    margin-left: 1vh;
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(126, 132, 255);
 }
 
 .signin-details p a {
@@ -149,6 +177,8 @@ body {
     margin-top: 2vh;
     font-weight: bold;
     color: #2722A3;
+    font-size: 15px;
+    text-transform: uppercase;
 }
 
 

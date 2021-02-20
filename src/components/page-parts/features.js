@@ -4,10 +4,11 @@ import '../../css/frontpage/features.css';
 import '../../../node_modules/font-awesome/css/font-awesome.min.css';
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
-import image2 from '../../images/bizpotta-learning.jpeg';
+import image2 from '../../images/education-black.jpg';
 import image4 from '../../images/bizpotta-about.jpeg';
 import image6 from '../../images/bizpotta-hub.jpeg';
 import image7 from '../../images/business-tech.jpeg';
+import image8 from '../../images/business-learning.jpg';
 
 const handleDragStart = (e) => e.preventDefault();
 
@@ -43,7 +44,7 @@ const items = [
             </div>
         </div>,
         <div className = 'testimony2' onDragStart={handleDragStart} >
-            <img src = {image7} alt = 'test3'/>
+            <img src = {image8} alt = 'test3'/>
             <div className = 'test-content' >
                 <p><i className = 'fa fa-quote-left'></i></p>
                 <p className = 'text'>
@@ -73,7 +74,7 @@ function Features() {
                         </p>
                         <Link to = "/about"> Learn More </Link>
                     </div>
-                    <div className = 'intro-image'>
+                    <div className = 'intro-image' style = {{'margin-right': '25vh'}}>
                         <img src = {image4} alt = 'intro' />
                     </div>    
                 </div>
@@ -108,7 +109,7 @@ function Features() {
                         <Link to = " "> Learn More </Link>
                     </div>
                     <div className = 'intro-image'>
-                        <img src = {image2} alt = 'intro' />
+                        <img src = {image2} alt = 'intro' style = {{'margin-right': '25vh'}}/>
                     </div>
                 </div>
                 <div className = 'course-div'>
